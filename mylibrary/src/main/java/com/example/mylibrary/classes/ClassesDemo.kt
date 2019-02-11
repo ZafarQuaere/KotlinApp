@@ -29,4 +29,9 @@ class Cupcake(flavour : String){
     fun work():String{
         return "Dedicate your time to your work, then you will be successful"
     }
+
+    fun bake() : String{
+        return "Bake"
+    }
+
 }
