@@ -2,7 +2,10 @@ package com.example.mylibrary.functions
 
 fun main(args: Array<String>){
 
-
+    val array = arrayListOf<Int>(1,2,3,4,5)
+    array.forEach{
+        println(it)
+    }
     fun add(num1 : Int,num2 : Int) :Int = num1 + num2
     println("Addition of 5 + 6 = ${add(5,6)}")
 
