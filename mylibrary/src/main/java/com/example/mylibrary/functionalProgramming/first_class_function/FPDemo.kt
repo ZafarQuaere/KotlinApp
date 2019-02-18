@@ -1,4 +1,4 @@
-package com.example.mylibrary.functionalProgramming
+package com.example.mylibrary.functionalProgramming.first_class_function
 
 fun main(args: Array<String>) {
 

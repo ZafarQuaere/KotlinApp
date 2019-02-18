@@ -1,4 +1,4 @@
-package com.example.mylibrary.functionalProgramming
+package com.example.mylibrary.functionalProgramming.first_class_function
 
 
 val capitalize = { str: String -> str.capitalize() }  //kotlin lambda expression
