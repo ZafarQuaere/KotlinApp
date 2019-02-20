@@ -1,0 +1,6 @@
+Lambda, which can also be called anonymous functions, has a first-class citizen support in
+Kotlin.
+
+A high order function is a function which accepts another function as a parameter or returns another
+function. We just saw how we can use a function as a property, so it's quite easy to see that we can
+accept another function as a parameter or that we can return another function from a function.

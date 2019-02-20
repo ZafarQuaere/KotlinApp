@@ -1,4 +1,4 @@
-package com.example.mylibrary.functions
+package com.example.mylibrary.functions.higherOrderFun
 
 //higher order functions is a function which either accept other function as paramter
 // or return other functions
@@ -22,7 +22,7 @@ fun main(args: Array<String>) {
     val funAsParam = {num1 : Int ->  num1 * 2}
     val numList1 = arrayOf(1,2,3,4,5)
 
-    mathOnList(numList1,funAsParam)
+    mathOnList(numList1, funAsParam)
 
 }
 
