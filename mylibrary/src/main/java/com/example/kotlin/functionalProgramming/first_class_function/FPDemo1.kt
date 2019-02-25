@@ -4,7 +4,7 @@ package com.example.kotlin.functionalProgramming.first_class_function
 val capitalize = { str: String -> str.capitalize() }  //kotlin lambda expression
 //above line is equivalent to below
 /*val capitalize = object :Function1<String,String>{
-    override fun invoke(p1: String): String {
+    override fun myFun(p1: String): String {
         return p1.capitalize()
     }
 }*/
