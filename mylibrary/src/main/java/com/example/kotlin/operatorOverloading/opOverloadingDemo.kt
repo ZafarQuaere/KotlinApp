@@ -17,7 +17,8 @@ fun main(args: Array<String>) {
     println("Operator Overloading : ${packObj}")
 
     operator fun Pack.plus(wolf: Wolf) = Pack(this.members.toMutableMap() + (wolf.name to wolf))
-    val biggerPack = packObj + Wolf("Bad Wolf")
+    var biggerPack = packObj + Wolf("Bad Wolf")
+
 }
 
 /*
