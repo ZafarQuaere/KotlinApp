@@ -40,3 +40,10 @@ val startTime = System.nanoTime()
 val v = Thread.sleep(1000)
 val endTime = System.nanoTime()
 val (_, inTime) = (v to endTime - startTime)*/
+
+
+/*A way to get around the memory overhead issue is, by declaring the function inline.
+inline annotation means that function as well as function parameters will be expanded at
+call site that means it helps reduce call overhead. The goal of this post is to get a basic
+understanding of inline in Kotlin so as to be able to identify how and when to use it in our code in future
+ */

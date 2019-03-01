@@ -9,6 +9,9 @@ fun main(args: Array<String>) {
 
     println("5>0: ${5.isGreaterThan()}")
     println("5>6: ${5.isGreaterThan(6)}")
+    var a = 2
+    println(someMethod(a, {println("Just some dummy function")}))
+
 }
 
 fun findVolume(length: Int, breadth: Int,height : Int = 10) : Int{
@@ -19,4 +22,9 @@ fun findVolume(length: Int, breadth: Int,height : Int = 10) : Int{
 
 fun Int.isGreaterThan(anotherNumber:Int = 0):Boolean {
     return this>anotherNumber
+}
+
+fun someMethod(a: Int, func: () -> Unit):Int {
+    func()
+    return 2*a
 }

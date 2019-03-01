@@ -12,7 +12,7 @@ sealed class FunList<out List> {
         val numbers = Cons(1, Cons(2, Cons(3, Cons(4, Nil))))
         val funList = intListOf(1, 2, 3, 4)
         val list = listOf(1, 2, 3, 4)
-      //  println("fold on funList : ${executionTime { funList.fold(0) { acc, i -> acc + i } }}")
+      //  println("fold on FunList : ${executionTime { FunList.fold(0) { acc, i -> acc + i } }}")
         println("fold on list : ${executionTime { list.fold(0) { acc, i -> acc + i } }}")
     }
 

@@ -13,3 +13,5 @@ on its arguments/parameters, then this function may be referred to as a pure fun
 The definition also says that a pure function should not actively or passively cause side effects, that
 is, it should not directly cause side effects, nor should it call any other function that causes side
 effects.
+
+
