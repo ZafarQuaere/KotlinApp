@@ -1,0 +1,11 @@
+Mutexes
+A Mutex (mutual exclusion) object allows access to multiple coroutines to share the same resource
+but not simultaneously:
+
+Actors
+An actor is kind of object that interacts with other actors and with the external world through
+messages
+
+An actor object can have a private internal mutable state that can be modified and
+accessed externally through messages, but not directly.
+
