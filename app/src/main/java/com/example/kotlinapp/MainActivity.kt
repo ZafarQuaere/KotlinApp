@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         val email = editEmail.text
         val pswd = editPassword.text
         btnLogin.setOnClickListener {
-            startActivity(Intent(this,SecondActivity::class.java))
+            startActivity(Intent(this,EditTextActivity::class.java))
         }
     }
 }
